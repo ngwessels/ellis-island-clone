@@ -149,9 +149,12 @@ body {
   width: 100%;
   height: auto;
   position: relative;
+  display: flex;
+  justify-content: row;
   .mainPic {
     img {
       width: 100%;
+      min-width: 1664px;
       height: auto;
       position: absolute;
     }
@@ -162,8 +165,44 @@ body {
       top: calc(50% + 60.295px);
       left: calc(50% - 255.5px);
       color: white;
+      text-shadow: 2px 2px 4px #000000;
+      .button {
+        display: flex;
+        justify-content: center;
+
+        button {
+          width: 116px;
+          height: 39px;
+          background-color: #5496c9;
+          font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+          font-weight: 400;
+          text-transform: uppercase;
+          color: white;
+          font-size: 15px;
+
+        }
+      }
     }
 
 
+  }
+  .searchRelatives {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 425px;
+    color: #91c1aa;
+    font-size: 16px;
+    font-weight: 600;
+    top: 410px;
+    left: calc(50% - 832px);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    min-width: 1664px;
+
+    h3 {
+
+    }
   }
 }
