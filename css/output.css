@@ -131,5 +131,19 @@ body {
 .bottomNav .container ul li #noBorder {
   border: none;
 }
+.bottomNav .container ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #454545;
+}
+
+.searchForRelatives {
+  width: 100%;
+  height: auto;
+}
+.searchForRelatives img {
+  width: 100%;
+  height: auto;
+}
 
 /*# sourceMappingURL=output.css.map */
