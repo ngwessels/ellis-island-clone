@@ -140,10 +140,18 @@ body {
 .searchForRelatives {
   width: 100%;
   height: auto;
+  position: relative;
 }
-.searchForRelatives img {
+.searchForRelatives .mainPic img {
   width: 100%;
   height: auto;
+  position: absolute;
+}
+.searchForRelatives .mainPic .text {
+  position: absolute;
+  top: calc(50% + 60.295px);
+  left: calc(50% - 255.5px);
+  color: white;
 }
 
 /*# sourceMappingURL=output.css.map */

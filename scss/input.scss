@@ -148,8 +148,22 @@ body {
 .searchForRelatives {
   width: 100%;
   height: auto;
-  img {
-    width: 100%;
-    height: auto;
+  position: relative;
+  .mainPic {
+    img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+    }
+    .text {
+      // display: flex;
+      // align-items: center;
+      position: absolute;
+      top: calc(50% + 60.295px);
+      left: calc(50% - 255.5px);
+      color: white;
+    }
+
+
   }
 }
