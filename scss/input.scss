@@ -153,7 +153,7 @@ body {
   justify-content: row;
   .mainPic {
     img {
-      width: 100%;
+      width: 2000px;
       min-width: 1664px;
       height: auto;
       position: absolute;
@@ -195,14 +195,29 @@ body {
     color: #91c1aa;
     font-size: 16px;
     font-weight: 600;
-    top: 410px;
-    left: calc(50% - 832px);
+    top: 542px;
+    left: calc(50% - 1000px);
     background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    min-width: 1664px;
-
-    h3 {
+    width: 2000px;
+    .inputs {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      input {
+        width: 494px;
+        height: 34px;
+        max-height: 34px;
+      }
+      .button {
+        button {
+          background-color: #5496c9;
+          border: none;
+          width: 188px;
+          height: 40px;
+        }
+      }
 
     }
+
   }
 }
