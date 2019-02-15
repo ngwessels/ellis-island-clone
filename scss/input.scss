@@ -64,7 +64,7 @@ body {
     .text {
       display: flex;
       flex-direction: column;
-      margin-left :2%;
+      margin-left: 2%;
       height: 69px;
       width: 600px;
       .italic {
@@ -114,6 +114,7 @@ body {
 
 
 .bottomNav {
+  margin: auto;
   display: flex;
   justify-content: center;
   .container {
@@ -144,80 +145,126 @@ body {
   }
 }
 
+.relatives {
+  width: 2000px;
+  height: 1000px;
+  .searchForRelatives {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: row;
+    .mainPic {
+      img {
+        width: 2000px;
+        min-width: 1664px;
+        height: auto;
+        position: absolute;
+      }
+      .text {
+        // display: flex;
+        // align-items: center;
+        position: absolute;
+        top: calc(50% + 60.295px);
+        left: calc(50% - 255.5px);
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        .button {
+          display: flex;
+          justify-content: center;
 
-.searchForRelatives {
-  width: 100%;
-  height: auto;
-  position: relative;
-  display: flex;
-  justify-content: row;
-  .mainPic {
-    img {
-      width: 2000px;
-      min-width: 1664px;
-      height: auto;
-      position: absolute;
+          button {
+            width: 116px;
+            height: 39px;
+            background-color: #5496c9;
+            font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: white;
+            font-size: 15px;
+
+          }
+        }
+      }
+
+
     }
-    .text {
-      // display: flex;
-      // align-items: center;
+    .searchRelatives {
       position: absolute;
-      top: calc(50% + 60.295px);
-      left: calc(50% - 255.5px);
-      color: white;
-      text-shadow: 2px 2px 4px #000000;
-      .button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      top: 425px;
+      color: #91c1aa;
+      font-size: 16px;
+      font-weight: 600;
+      top: 523px;
+      left: calc(50% - 1000px);
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 2000px;
+      .inputs {
         display: flex;
-        justify-content: center;
-
-        button {
-          width: 116px;
-          height: 39px;
-          background-color: #5496c9;
-          font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
-          font-weight: 400;
-          text-transform: uppercase;
-          color: white;
-          font-size: 15px;
-
+        flex-direction: row;
+        align-items: center;
+        input {
+          width: 494px;
+          height: 34px;
+          max-height: 34px;
+        }
+        .button {
+          button {
+            background-color: #5496c9;
+            border: none;
+            width: 188px;
+            height: 40px;
+          }
         }
       }
     }
-
-
   }
-  .searchRelatives {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 425px;
-    color: #91c1aa;
-    font-size: 16px;
-    font-weight: 600;
-    top: 542px;
-    left: calc(50% - 1000px);
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 2000px;
-    .inputs {
+}
+
+
+.honorYourFamily {
+  width: 1200px;
+  height: 1000px;
+  margin: 0;
+  .main {
+    .top {
+
       display: flex;
       flex-direction: row;
-      align-items: center;
-      input {
-        width: 494px;
-        height: 34px;
-        max-height: 34px;
-      }
-      .button {
-        button {
-          background-color: #5496c9;
-          border: none;
-          width: 188px;
-          height: 40px;
+      justify-content: center;
+    }
+    .family {
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .families {
+        width: 590px;
+        position: relative;
+        img {
+          position: absolute;
+        }
+        .text {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 259px;
+          background-color: #91c1aa;
+          width: 590px;
+          color: white;
+          .title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          }
         }
       }
 
     }
+
 
   }
 }

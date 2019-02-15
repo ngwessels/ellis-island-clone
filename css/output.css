@@ -107,6 +107,7 @@ body {
 }
 
 .bottomNav {
+  margin: auto;
   display: flex;
   justify-content: center;
 }
@@ -137,31 +138,35 @@ body {
   color: #454545;
 }
 
-.searchForRelatives {
+.relatives {
+  width: 2000px;
+  height: 1000px;
+}
+.relatives .searchForRelatives {
+  margin: auto;
   width: 100%;
-  height: auto;
   position: relative;
   display: flex;
   justify-content: row;
 }
-.searchForRelatives .mainPic img {
+.relatives .searchForRelatives .mainPic img {
   width: 2000px;
   min-width: 1664px;
   height: auto;
   position: absolute;
 }
-.searchForRelatives .mainPic .text {
+.relatives .searchForRelatives .mainPic .text {
   position: absolute;
   top: calc(50% + 60.295px);
   left: calc(50% - 255.5px);
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
-.searchForRelatives .mainPic .text .button {
+.relatives .searchForRelatives .mainPic .text .button {
   display: flex;
   justify-content: center;
 }
-.searchForRelatives .mainPic .text .button button {
+.relatives .searchForRelatives .mainPic .text .button button {
   width: 116px;
   height: 39px;
   background-color: #5496c9;
@@ -171,7 +176,7 @@ body {
   color: white;
   font-size: 15px;
 }
-.searchForRelatives .searchRelatives {
+.relatives .searchForRelatives .searchRelatives {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -180,26 +185,63 @@ body {
   color: #91c1aa;
   font-size: 16px;
   font-weight: 600;
-  top: 542px;
+  top: 523px;
   left: calc(50% - 1000px);
   background-color: rgba(0, 0, 0, 0.5);
   width: 2000px;
 }
-.searchForRelatives .searchRelatives .inputs {
+.relatives .searchForRelatives .searchRelatives .inputs {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.searchForRelatives .searchRelatives .inputs input {
+.relatives .searchForRelatives .searchRelatives .inputs input {
   width: 494px;
   height: 34px;
   max-height: 34px;
 }
-.searchForRelatives .searchRelatives .inputs .button button {
+.relatives .searchForRelatives .searchRelatives .inputs .button button {
   background-color: #5496c9;
   border: none;
   width: 188px;
   height: 40px;
+}
+
+.honorYourFamily {
+  width: 1200px;
+  height: 1000px;
+  margin: 0;
+}
+.honorYourFamily .main .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.honorYourFamily .main .family {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.honorYourFamily .main .family .families {
+  width: 590px;
+  position: relative;
+}
+.honorYourFamily .main .family .families img {
+  position: absolute;
+}
+.honorYourFamily .main .family .families .text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 259px;
+  background-color: #91c1aa;
+  width: 590px;
+  color: white;
+}
+.honorYourFamily .main .family .families .text .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=output.css.map */
