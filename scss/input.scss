@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f1f1f;
+  color: white;
+  padding: 5px 0px;
+  font-size: 14px;
+  min-width: 1212px;
+  height: 35px;
+  margin: 0;
+  font-family: inherit;
+  color: white;
+  .update {
+    display: flex;
+    align-self: center;
+    margin-left: 6%;
+  }
+  .users {
+    display: flex;
+    width: 500px;
+    justify-content: flex-end;
+    margin-right: 5%;
+    .login {
+      display: flex;
+      align-self: center;
+    }
+    .register {
+      margin-right: 8%;
+      display: flex;
+      align-self: center;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    a:hover {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+}
+
+
+.middleNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgrey;
+  height: 125px;
+  .pic {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: 6%;
+    height: 69px;
+    img {
+      height: 69px;
+      width: auto;
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+      margin-left :2%;
+      height: 69px;
+      width: 600px;
+      .italic {
+        margin: 0;
+        font-style: italic;
+        font-size: 25px;
+        font-weight: 100;
+      }
+      h1 {
+        margin: 0;
+        font-weight: lighter;
+        font-size: 40px;
+      }
+    }
+  }
+  .buttons {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: space-around;
+    margin-right: 200px;
+    font-family: inherit;
+    font-style: inherit;
+    .Donate {
+      button {
+        background-color: white;
+        height: 43px;
+        width: 151px;
+        color: #5496c9;
+        font-size: 100%;
+        border: 2px solid lightgrey;
+        font-weight: bolder;
+
+      }
+    }
+    .Search {
+      button {
+        background-color: #5496c9;
+        height: 43px;
+        width: 151px;
+        color: white;
+      }
+    }
+  }
+}
+
+
+.bottomNav {
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 70%;
+    ul {
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-right: 1px solid lightgrey;
+        height: 100%;
+        width: 50%;
+        #noBorder {
+          border: none;
+        }
+      }
+
+    }
+
+  }
+}

@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f1f1f;
+  color: white;
+  padding: 5px 0px;
+  font-size: 14px;
+  min-width: 1212px;
+  height: 35px;
+  margin: 0;
+  font-family: inherit;
+  color: white;
+}
+.topNav .update {
+  display: flex;
+  align-self: center;
+  margin-left: 6%;
+}
+.topNav .users {
+  display: flex;
+  width: 500px;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+.topNav .users .login {
+  display: flex;
+  align-self: center;
+}
+.topNav .users .register {
+  margin-right: 8%;
+  display: flex;
+  align-self: center;
+}
+.topNav .users a {
+  color: white;
+  text-decoration: none;
+}
+.topNav .users a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.middleNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgrey;
+  height: 125px;
+}
+.middleNav .pic {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-left: 6%;
+  height: 69px;
+}
+.middleNav .pic img {
+  height: 69px;
+  width: auto;
+}
+.middleNav .pic .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  height: 69px;
+  width: 600px;
+}
+.middleNav .pic .text .italic {
+  margin: 0;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: 100;
+}
+.middleNav .pic .text h1 {
+  margin: 0;
+  font-weight: lighter;
+  font-size: 40px;
+}
+.middleNav .buttons {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  justify-content: space-around;
+  margin-right: 200px;
+  font-family: inherit;
+  font-style: inherit;
+}
+.middleNav .buttons .Donate button {
+  background-color: white;
+  height: 43px;
+  width: 151px;
+  color: #5496c9;
+  font-size: 100%;
+  border: 2px solid lightgrey;
+  font-weight: bolder;
+}
+.middleNav .buttons .Search button {
+  background-color: #5496c9;
+  height: 43px;
+  width: 151px;
+  color: white;
+}
+
+.bottomNav {
+  display: flex;
+  justify-content: center;
+}
+.bottomNav .container {
+  width: 70%;
+}
+.bottomNav .container ul {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.bottomNav .container ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-right: 1px solid lightgrey;
+  height: 100%;
+  width: 50%;
+}
+.bottomNav .container ul li #noBorder {
+  border: none;
+}
+
+/*# sourceMappingURL=output.css.map */
