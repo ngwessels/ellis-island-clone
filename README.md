@@ -6,10 +6,11 @@
 
 ## Description
 
-#### _The main purpose of this website is to create a remake of a certain website that can be used with flexbox._
+#### _The main purpose of this website is to create a remake of a certain website that can be used with flexbox. https://ngwessels.github.io/ellis-island-clone/. Above is the link to the gh_pages of this cloned website_
 
 ## Specs
 
+_The website will display a cloned version of "The Statue of Liberty - Ellis Island" Webpage.
 ![alt text](imgs/real.22.30 PM.png)
 ![alt text](imgs/clone.22.11 PM.png)
 
@@ -18,7 +19,7 @@ _This application will be stored on Github for easy access. But to be able to do
 1. Open the terminal on your device. Make sure you have the Git Library installed.
 2. If or Once complete you must go to a different directory. Type in "cd ~" to take you to the home directory.
 3. If you want to place this application in your desktop directory type in "cd desktop".
-4. Now install the repository from Github by typing "git clone https://github.com/ngwessels/Fourth-Friday-Project".
+4. Now install the repository from Github by typing "git clone https://github.com/ngwessels/ellis-island-clone".
 5. Once finished installing type in "Fourth-Friday-Project".
 6. And last step type in "git remote -v" to see what name was given to the repository_
 
