@@ -140,7 +140,7 @@ body {
 
 .relatives {
   width: 2000px;
-  height: 1000px;
+  height: 700px;
 }
 .relatives .searchForRelatives {
   margin: auto;
@@ -160,7 +160,7 @@ body {
   top: calc(50% + 60.295px);
   left: calc(50% - 255.5px);
   color: white;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px black;
 }
 .relatives .searchForRelatives .mainPic .text .button {
   display: flex;
@@ -181,7 +181,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 425px;
   color: #91c1aa;
   font-size: 16px;
   font-weight: 600;
@@ -208,7 +207,7 @@ body {
 }
 
 .honorYourFamily {
-  width: 1200px;
+  width: 2000px;
   height: 1000px;
   margin: 0;
 }
@@ -220,14 +219,17 @@ body {
 .honorYourFamily .main .family {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .honorYourFamily .main .family .families {
   width: 590px;
+  margin-left: 5%;
+  margin-right: 5%;
   position: relative;
 }
 .honorYourFamily .main .family .families img {
   position: absolute;
+  max-width: 590px;
 }
 .honorYourFamily .main .family .families .text {
   display: flex;
@@ -241,7 +243,18 @@ body {
 .honorYourFamily .main .family .families .text .title {
   display: flex;
   flex-direction: row;
+  margin-left: 5%;
   justify-content: space-between;
+  align-items: center;
+}
+.honorYourFamily .main .family .families .text .title button {
+  background-color: #5496c9;
+  border: 1px solid white;
+  width: 99px;
+  height: 38px;
+  margin-right: 5%;
+  color: white;
+  font-size: 100%;
 }
 
 /*# sourceMappingURL=output.css.map */

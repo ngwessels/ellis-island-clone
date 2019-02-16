@@ -1,3 +1,10 @@
+$color1: #5496c9;
+$color2: #1f1f1f;
+$color3: #454545;
+$color4: #91c1aa;
+
+
+
 body {
   margin: 0;
 }
@@ -5,7 +12,7 @@ body {
 .topNav {
   display: flex;
   justify-content: space-between;
-  background-color: #1f1f1f;
+  background-color: $color2;
   color: white;
   padding: 5px 0px;
   font-size: 14px;
@@ -94,7 +101,7 @@ body {
         background-color: white;
         height: 43px;
         width: 151px;
-        color: #5496c9;
+        color: $color1;
         font-size: 100%;
         border: 2px solid lightgrey;
         font-weight: bolder;
@@ -103,7 +110,7 @@ body {
     }
     .Search {
       button {
-        background-color: #5496c9;
+        background-color: $color1;
         height: 43px;
         width: 151px;
         color: white;
@@ -138,7 +145,7 @@ body {
         a {
           text-decoration: none;
           font-size: 15px;
-          color: #454545
+          color: $color3;
         }
       }
     }
@@ -147,7 +154,7 @@ body {
 
 .relatives {
   width: 2000px;
-  height: 1000px;
+  height: 700px;
   .searchForRelatives {
     margin: auto;
     width: 100%;
@@ -168,7 +175,7 @@ body {
         top: calc(50% + 60.295px);
         left: calc(50% - 255.5px);
         color: white;
-        text-shadow: 2px 2px 4px #000000;
+        text-shadow: 2px 2px 4px black;
         .button {
           display: flex;
           justify-content: center;
@@ -176,7 +183,7 @@ body {
           button {
             width: 116px;
             height: 39px;
-            background-color: #5496c9;
+            background-color: $color1;
             font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
             font-weight: 400;
             text-transform: uppercase;
@@ -194,8 +201,7 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
-      top: 425px;
-      color: #91c1aa;
+      color: $color4;
       font-size: 16px;
       font-weight: 600;
       top: 523px;
@@ -213,7 +219,7 @@ body {
         }
         .button {
           button {
-            background-color: #5496c9;
+            background-color: $color1;
             border: none;
             width: 188px;
             height: 40px;
@@ -224,9 +230,8 @@ body {
   }
 }
 
-
 .honorYourFamily {
-  width: 1200px;
+  width: 2000px;
   height: 1000px;
   margin: 0;
   .main {
@@ -240,12 +245,15 @@ body {
 
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-around;
       .families {
         width: 590px;
+        margin-left: 5%;
+        margin-right: 5%;
         position: relative;
         img {
           position: absolute;
+          max-width: 590px;
         }
         .text {
           display: flex;
@@ -258,13 +266,21 @@ body {
           .title {
             display: flex;
             flex-direction: row;
+            margin-left: 5%;
             justify-content: space-between;
+            align-items: center;
+            button {
+              background-color: $color1;
+              border: 1px solid white;
+              width: 99px;
+              height: 38px;
+              margin-right: 5%;
+              color: white;
+              font-size: 100%;
+            }
           }
         }
       }
-
     }
-
-
   }
 }
