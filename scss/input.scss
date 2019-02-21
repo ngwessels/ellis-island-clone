@@ -409,16 +409,14 @@ body {
 
 
 @media only screen and (max-width: 500px) {
-  #searchRelatives {
-    display: none;
-  }
-  .relatives {
-    height: 400px;
-  }
+
   #readMoreButton {
     display: none;
   }
   #registerNow {
+    display: none;
+  }
+  #textinPic {
     display: none;
   }
 }
@@ -430,5 +428,15 @@ body {
   }
   #registerNow {
     display: none;
+  }
+}
+
+
+@media only screen and (max-width: 1300px) {
+  #searchRelatives {
+    display: none;
+  }
+  .relatives {
+    height: 400px;
   }
 }
