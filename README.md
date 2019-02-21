@@ -11,8 +11,8 @@ _The main purpose of this website is to create a remake of a certain website tha
 ## Specs
 
 _The website will display a cloned version of "The Statue of Liberty - Ellis Island" Webpage._
-![real website](imgs/real.22.30 PM.png)
-![cloned website](imgs/clone.22.11 PM.png)
+![real website](imgs/real.22.30PM.png)
+![cloned website](imgs/clone.22.11PM.png)
 
 ## Setup/Installation Requirements
 _This application will be stored on Github for easy access. But to be able to do that the user must complete a few things first._
