@@ -215,4 +215,78 @@ body {
             color: white;
             font-size: 100%; }
 
+.becomeAMember {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .becomeAMember .box {
+    width: 49%;
+    max-width: 300px;
+    border: 1px solid black; }
+    .becomeAMember .box #featuredStory {
+      position: relative; }
+      .becomeAMember .box #featuredStory img {
+        width: 100%;
+        position: absolute;
+        clip: rect(0px, 300px, 100px, 0px); }
+      .becomeAMember .box #featuredStory h2 {
+        width: 100%;
+        position: absolute;
+        color: white; }
+      .becomeAMember .box #featuredStory h3 {
+        width: 100%;
+        position: absolute;
+        color: white;
+        margin-top: 50px; }
+      .becomeAMember .box #featuredStory .text {
+        position: absolute; }
+        .becomeAMember .box #featuredStory .text p {
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 100px;
+          font-size: 14px; }
+    .becomeAMember .box #member {
+      margin: 0; }
+      .becomeAMember .box #member h1 {
+        font-size: 18px; }
+      .becomeAMember .box #member h3 {
+        font-size: 14px; }
+      .becomeAMember .box #member .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; }
+        .becomeAMember .box #member .buttons #login button {
+          background-color: #91c1aa; }
+        .becomeAMember .box #member .buttons #join button {
+          background-color: lightblue; }
+
+.shop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 600px; }
+  .shop .items {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .shop .items .item {
+      width: 16%;
+      min-width: 200px;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .shop .items .item h1 {
+        font-size: 16px; }
+      .shop .items .item p {
+        font-size: 10px; }
+      .shop .items .item h3 {
+        font-size: 16px; }
+      .shop .items .item h2 {
+        font-size: 16px; }
+
 /*# sourceMappingURL=output.css.map */
