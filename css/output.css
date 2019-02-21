@@ -182,12 +182,13 @@ body {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row; }
+    flex-direction: row;
+    justify-content: center; }
     .honorYourFamily .families .family {
       width: 590px;
       height: 392px;
-      margin-left: 3%;
-      margin-right: 3%;
+      margin-left: 1%;
+      margin-right: 1%;
       position: relative; }
       .honorYourFamily .families .family img {
         position: absolute;
@@ -298,6 +299,9 @@ body {
 
   #textinPic {
     display: none; } }
+@media only screen and (max-width: 1250px) {
+  #family {
+    margin-top: 6%; } }
 @media only screen and (max-width: 1100px) {
   #donateNow {
     display: none; }
