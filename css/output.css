@@ -8,7 +8,7 @@ body {
   color: white;
   padding: 5px 0px;
   font-size: 14px;
-  min-width: 1212px;
+  width: 100%;
   height: 35px;
   margin: 0;
   font-family: inherit;
@@ -90,7 +90,6 @@ body {
       color: white; }
 
 .bottomNav {
-  margin: auto;
   display: flex;
   justify-content: center; }
   .bottomNav .container {
@@ -117,8 +116,7 @@ body {
 
 .relatives {
   width: 100%;
-  height: 500px;
-  min-width: 800px; }
+  height: 500px; }
   .relatives .searchForRelatives {
     margin: auto;
     position: relative;
@@ -298,7 +296,7 @@ body {
     justify-content: center;
     padding: 0;
     margin: 0; } }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 684px) {
   #readMoreButton {
     display: none; }
 
@@ -306,7 +304,10 @@ body {
     display: none; }
 
   #textinPic {
-    display: none; } }
+    display: none; }
+
+  .relatives {
+    height: 100px; } }
 @media only screen and (max-width: 1250px) {
   #family {
     margin-top: 6%; } }
@@ -315,6 +316,9 @@ body {
     display: none; }
 
   #registerNow {
+    display: none; }
+
+  #login {
     display: none; } }
 @media only screen and (max-width: 1300px) {
   #searchRelatives {
