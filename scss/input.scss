@@ -3,9 +3,9 @@ $color2: #1f1f1f;
 $color3: #454545;
 $color4: #91c1aa;
 
-// * {
-//   border: 1px solid pink;
-// }
+* {
+  border: 1px solid pink;
+}
 
 body {
   margin: 0;
@@ -16,9 +16,9 @@ body {
   justify-content: space-between;
   background-color: $color2;
   color: white;
-  padding: 5px 0px;
+  // padding: 5px 0px;
   font-size: 14px;
-  width: 100%;
+  width: 98vw;
   height: 35px;
   margin: 0;
   font-family: inherit;
@@ -59,7 +59,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px solid lightgrey;
-  height: 125px;
+  height: 150px;
   .pic {
     display: flex;
     flex-direction: row;
@@ -75,7 +75,7 @@ body {
       flex-direction: column;
       margin-left: 2%;
       height: 69px;
-      width: 600px;
+      width: 100%;
       .italic {
         margin: 0;
         font-style: italic;
@@ -125,6 +125,20 @@ body {
 .bottomNav {
   display: flex;
   justify-content: center;
+  .menuIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: none;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+    p {
+      font-size: 16px;
+    }
+
+  }
   .container {
     width: 70%;
     ul {
@@ -256,23 +270,24 @@ body {
     justify-content: center;
 
     .family {
-
-      width: 590px;
+      width: 40vw;
+      max-width: 590px;
       height: 392px;
       margin-left: 1%;
       margin-right: 1%;
       position: relative;
       img {
         position: absolute;
+        width: 100%;
         max-width: 590px;
       }
       .text {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 259px;
+        bottom: 6%;
         background-color: #91c1aa;
-        width: 590px;
+        width: 100%;
         color: white;
         .title {
           display: flex;
@@ -403,6 +418,9 @@ body {
 
 
 @media only screen and (max-width: 800px) {
+  .relatives {
+    height: 100px;
+  }
   .statueofLiberty {
     display: none;
   }
@@ -411,13 +429,24 @@ body {
     padding: 0;
     margin: 0;
   }
+  .users {
+    width: 5px;
+  }
+  .family {
+    img {
+      width: 200px;
+
+    }
+  }
 
 }
 
 
 
 @media only screen and (max-width: 684px) {
-
+  .relatives {
+    height: 100px;
+  }
   #readMoreButton {
     display: none;
   }
@@ -427,18 +456,32 @@ body {
   #textinPic {
     display: none;
   }
-  .relatives {
-    height: 100px;
+  .users {
+    width: 0px;
+  }
+  .bottomNav {
+    .menuIcon {
+      display: block;
+
+    }
+    .container {
+      display: none;
+      width: 1px;
+
+    }
   }
 }
 @media only screen and (max-width: 1250px) {
-  #family {
-    margin-top: 6%;
-  }
+  // #family {
+  //   margin-top: 6%;
+  // }
 }
 
 
 @media only screen and (max-width: 1100px) {
+  .relatives {
+    height: 300px;
+  }
   #donateNow {
     display: none;
   }
